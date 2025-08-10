@@ -1,0 +1,61 @@
+/* Fade in/out animation for route transitions */
+.fade-wrapper {
+  animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+body {
+  background-image: url("../../public/imgs/2024-2025.jpg"); 
+  background-repeat: no-repeat; 
+  background-position: center center;
+  background-size: cover; 
+  background-attachment: fixed;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+main {
+  margin-top: 60px;
+}
+
+.news {
+  background-color: white;
+}
+
+.purple-stripe {
+  background-color: #7f4ebe;
+}
+
+.white-stripe {
+  background-color: white;
+}
+
+.big-white-box {
+  background-color: white;
+  margin: 10%;
+}
+
+.big-purple-box {
+  background-color: #7f4ebe;
+  margin: 10%;
+}
+
+.gray-stripe {
+  background-color: lightgray;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}

@@ -1,0 +1,89 @@
+.navbar {
+    background-color: #7f4ebe;
+    height: 60px;
+    color: #ffffff;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1200;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 30px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  position: fixed;
+  top: 10px;
+  left: 15px;
+  z-index: 1100;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 3px 0;
+    transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
+    border-radius: 2px;
+}
+
+.navbar-toggle.is-active .bar-one {
+    transform: translateY(10px) rotate(45deg); /* Adjust values based on bar size */
+}
+
+.navbar-toggle.is-active .bar-two {
+    opacity: 0;
+}
+
+.navbar-toggle.is-active .bar-three {
+    transform: translateY(-10px) rotate(-45deg); /* Adjust values based on bar size */
+}
+
+.navbar-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: #7f4ebe;
+  transform: translateY(-100%);
+  transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-top: 60px; /* space for the button */
+}
+
+.navbar-menu.is-active {
+  transform: translateY(0);
+}
+
+.dropdown {
+  display: none;
+}
+
+.dropdown.is-active {
+  display: block;
+}
+
+nav ul {
+    margin-top: 0;
+    list-style-type: none;
+}
