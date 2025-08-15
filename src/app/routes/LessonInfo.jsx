@@ -11,12 +11,10 @@ export default function LessonInfo() {
                     <p>Our lessons run for six total weekends during winter quarter. We offer 3-week (A <strong>or B</strong>) or 6-week lesson packages. Students may choose between our Saturday (<strong>1:30 - 4pm</strong>) or Sunday (<strong>11:30 - 2pm</strong>) session. </p>
                     <h2>Group Lessons</h2>
                     <p>Ages 7+, suitable for all skill levels! Group size is anywhere between 3-5 students per instructor, arranged based on sport type, age, and ability level</p>
-                    <h2>Group Lessons</h2>
-                    <p>Ages 7+, suitable for all skill levels! Group size is anywhere between 3-5 students per instructor, arranged based on sport type, age, and ability level.</p>
-                    <h2>Private Lessons</h2>
+                    <h2>Single-Student Lessons</h2>
                     <p>Ages 5+, Privates are 1-on-1 student to instructor for a more personalized experience.</p>
-                    <h2>Semi-Private Lessons</h2>
-                    <p>Ages 7+, Semi-privates are group lessons where you pick your group of 2-5 kids. Please email huskywslessons@gmail.com if interested in registering students ages 5 and 6 for semi-private lessons. </p>   
+                    <h2>Friends & Family Lessons</h2>
+                    <p>Ages 7+, Semi-privates are group lessons where you pick your group of 2-5 kids. Please email <a href='mailto:huskywslessons@gmail.com'>huskywslessons@gmail.com</a> if interested in registering students ages 5 and 6 for semi-private lessons. </p>   
                 </div>
             </section>
 
@@ -25,18 +23,18 @@ export default function LessonInfo() {
                 <div className='little-purple-box'>
                     <h3>SESSION A</h3>
                     <ul>
-                        <li>Lesson1: TBD</li>
-                        <li>Lesson2: TBD</li>
-                        <li>Lesson3: TBD</li>
+                        <li>Lesson1: Jan 31st & Feb 1st</li>
+                        <li>Lesson2: Feb 7th & 8th</li>
+                        <li>Lesson3: Feb 21st & 22nd</li>
                     </ul>
                 </div>
-                <p>*There is a one-week break between lessons 1 & 2 of session A  No lessons will be taught on 2/15-2/16 for President's Day.</p>
+                <p>*There is a one-week break between lessons 1 & 2 of session A  No lessons will be taught on 2/14-2/15 for President's Day.</p>
                 <div className='little-purple-box'>
                     <h3>SESSION B</h3>
                     <ul>
-                        <li>Lesson1: TBD</li>
-                        <li>Lesson2: TBD</li>
-                        <li>Lesson3: TBD</li>
+                        <li>Lesson1: Feb 28th & Mar 1st</li>
+                        <li>Lesson2: Mar 7th & 8th</li>
+                        <li>Lesson3: Mar 14th & Mar 15th</li>
                     </ul>
                 </div>
             </section>
@@ -68,50 +66,29 @@ export default function LessonInfo() {
                 <h2>PRICES</h2>
                 <section className='cards'>
                     <div className='card'>
-                        <h3>Group Lessons</h3>
-                        <p>Three to five students of similar age and ability level.</p>
+                        <h3>Group Ski or Snowboard Lessons</h3>
                         <div className='little-white-box'>
                             <ul>
-                                <li><h4>3-week</h4>
-                                <p>Ski - TBD</p>
-                                <p>Snowboard - TBD</p>
-                                </li>
-                                <li><h4>6-week</h4>
-                                <p>Ski - TBD</p>
-                                <p>Snowboard - TBD</p>
-                                </li>
+                                <li>3 weeks - $240</li>
+                                <li>6 weeks - $360</li>
                             </ul>
                         </div>
                     </div>
                     <div className='card'>
-                        <h3>Semi-Private Lessons</h3>
-                        <p>Want to learn with your friends? Family lessons? Unique accommodations?</p>
+                        <h3>Single-Student Ski or Snowboard Lessons</h3>
                         <div className='little-white-box'>
                             <ul>
-                                <li><h4>3-week</h4>
-                                <p>Ski - TBD</p>
-                                <p>Snowboard - TBD</p>
-                                </li>
-                                <li><h4>6-week</h4>
-                                <p>Ski - TBD</p>
-                                <p>Snowboard - TBD</p>
-                                </li>
+                                <li>3 weeks - $660</li>
+                                <li>6 weeks - $990</li>
                             </ul>
                         </div>
                     </div>
                     <div className='card'>
-                        <h3>Private Lessons</h3>
-                        <p>One-on-one instruction..</p>
+                        <h3>Friends & Family Ski or Snowboard Lessons</h3>
                         <div className='little-white-box'>
                             <ul>
-                                <li><h4>3-week</h4>
-                                <p>Ski - TBD</p>
-                                <p>Snowboard - TBD</p>
-                                </li>
-                                <li><h4>6-week</h4>
-                                <p>Ski - TBD</p>
-                                <p>Snowboard - TBD</p>
-                                </li>
+                                <li>3 weeks - $325</li>
+                                <li>6 weeks - $485</li>
                             </ul>
                         </div>
                     </div>

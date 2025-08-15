@@ -23,7 +23,7 @@ export default function Home() {
 
             <section className='news'>
                 <h2>NEWS</h2>
-                <h3 className='excite'>Registration begins October 1st!</h3>
+                <h3 className='excite'>Lesson registration for the 2025/26 season opens on September 15th!</h3>
                 <p>Joining our email list is the best way to stay up to date with information as lessons approach by signing up for our <Link to="/lessons/join-our-mailing-list">mailing list</Link>.</p>
             </section>
 
