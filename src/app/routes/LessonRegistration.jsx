@@ -6,7 +6,7 @@ export default function LessonRegistration() {
             <section className='big-white-box'>
                 <h1>LESSON REGISTRATION</h1>
                 <div className='centered-text'>
-                    <p>Lesson registration for the 2024/25 ski and snowboard season is currently closed.  </p>
+                    <p>Lesson registration for the 2025/26 ski and snowboard season is currently closed.  </p>
                     <p>If you have questions, please email <a href='mailto:huskywslessons@gmail.com'>huskywslessons@gmail.com</a>. We will get back to you in 1 to 2 business days.*</p>
                     <p className='footnote'>*During the Spring and Summer months (March - August), email and voice messages are checked less frequently, and it may take up to one week to receive a response.</p>
                     {/* stars? */}
