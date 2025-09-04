@@ -20,23 +20,25 @@ export default function LessonInfo() {
 
             <section className='gray-stripe'>
                 <h2>2025/2026 DATES</h2>
-                <div className='little-purple-box'>
-                    <h3>SESSION A</h3>
-                    <ul>
-                        <li>Lesson1: Jan 31st & Feb 1st</li>
-                        <li>Lesson2: Feb 7th & 8th</li>
-                        <li>Lesson3: Feb 21st & 22nd</li>
-                    </ul>
-                </div>
+                <section className='boxes'>
+                    <div className='box'>
+                        <h3>SESSION A</h3>
+                        <ul>
+                            <li>Lesson1: Jan 31st & Feb 1st</li>
+                            <li>Lesson2: Feb 7th & 8th</li>
+                            <li>Lesson3: Feb 21st & 22nd</li>
+                        </ul>
+                    </div>
+                    <div className='box'>
+                        <h3>SESSION B</h3>
+                        <ul>
+                            <li>Lesson1: Feb 28th & Mar 1st</li>
+                            <li>Lesson2: Mar 7th & 8th</li>
+                            <li>Lesson3: Mar 14th & Mar 15th</li>
+                        </ul>
+                    </div>
+                </section>
                 <p>*There is a one-week break between lessons 1 & 2 of session A  No lessons will be taught on 2/14-2/15 for President's Day.</p>
-                <div className='little-purple-box'>
-                    <h3>SESSION B</h3>
-                    <ul>
-                        <li>Lesson1: Feb 28th & Mar 1st</li>
-                        <li>Lesson2: Mar 7th & 8th</li>
-                        <li>Lesson3: Mar 14th & Mar 15th</li>
-                    </ul>
-                </div>
             </section>
 
             <section className='white-stripe'>

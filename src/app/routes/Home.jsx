@@ -1,4 +1,5 @@
 import '../../assets/Global.css'
+import '../../assets/Home.css'
 
 import { Link, Outlet } from 'react-router-dom';
 
@@ -16,16 +17,15 @@ export default function Home() {
 
             <section className='text-on-picture'>
                 <div className='text'>
-                    <h2>ABOUT</h2>
-                    <p>Husky Winter Sports is a non-profit ski and snowboard school operating under Ullr Snow Sports at the Summit at Snoqualmie. HWS is run by the University of Washington’s Husky Winter Sports Club, a registered student organization since 1937. All instructors are student volunteers trained as snowsports instructors following national professional guidelines set by Professional Ski Instructors of America and the American Association of Snowboard Instructors.</p>
-                </div>
+                    <h2>"COOL QUOTE"</h2>
+                    </div>
             </section>
 
-            <section className='news'>
+            {/* <section className='news'>
                 <h2>NEWS</h2>
                 <h3 className='excite'>Lesson registration for the 2025/26 season opens on September 15th!</h3>
                 <p>Joining our email list is the best way to stay up to date with information as lessons approach by signing up for our <Link to="/lessons/join-our-mailing-list">mailing list</Link>.</p>
-            </section>
+            </section> */}
 
             <section className='purple-stripe'>
                 <h2>WHY US?</h2>

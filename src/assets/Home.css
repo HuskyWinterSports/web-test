@@ -1,0 +1,70 @@
+.home-banner {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: start;
+    background-color: purple;
+    padding: 30px 5%;
+}
+
+.home-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.home-subtitle {
+    font-size: 1.5em;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.button {
+    background-color: purple;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: purple;
+}
+
+.text-on-picture {
+    /* background-image: ; */
+    display: flex;
+    position: relative;
+    height: 200px;
+}
+
+.text {
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.text h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+    letter-spacing: 1px;
+}
+

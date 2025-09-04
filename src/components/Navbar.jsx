@@ -42,7 +42,7 @@ export default function Navbar() {
                         </ul>
                     </li>
                     <li onMouseEnter={() => setHoveredClub(true)} onMouseLeave={() => setHoveredClub(false)}>
-                        <NavLink to="/become-an-instructor">Club Info</NavLink>
+                        <NavLink to="/become-an-instructor">About Us</NavLink>
                         <ul className={`dropdown ${hoveredClub ? 'is-active' : ''}`}>
                             <li><NavLink to="/become-an-instructor">Become an Instructor</NavLink></li>
                             <li><NavLink to="/diversity-and-inclusion">Diversity and Inclusion</NavLink></li>

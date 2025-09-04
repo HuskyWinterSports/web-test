@@ -20,14 +20,14 @@ body {
 
 main {
   margin-top: 60px;
-}
-
-.news {
-  background-color: white;
+  margin-bottom: 40px;
 }
 
 .purple-stripe {
   background-color: #7f4ebe;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 .white-stripe {
@@ -58,4 +58,43 @@ h1 {
 
 ul {
   text-align: left;
+}
+
+.purple-stripe .cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 130px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.card p {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+@media (min-width: 768px) {
+  .purple-stripe {
+    padding: 40px 20px;
+    
+  }
+  .purple-stripe .cards {
+    justify-content: space-between;
+    margin: 40px 10%;
+  }
+
+  .card {
+    width: 170px;
+    margin: auto;
+  }
 }
