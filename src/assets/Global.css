@@ -18,26 +18,82 @@ body {
   font-family: "Nunito Sans", sans-serif;
 }
 
+.fade-wrapper {
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */    min-height: 100vh;
+  justify-content: space-between;
+}
+
 main {
   margin-top: 60px;
   margin-bottom: 40px;
 }
 
+h2 {
+    font-size: 1.5em;
+    margin: 10px auto 30px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
 .purple-stripe {
   background-color: #7f4ebe;
   color: white;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
 }
 
 .white-stripe {
   background-color: white;
+  padding: 40px;
 }
 
-.big-white-box {
+.white-stripe h2 {
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.white-stripe p {
+  max-width: 800px;
+  margin: 10px auto 30px;
+  line-height: 1.6;
+}
+
+.white-stripe ol {
+  max-width: 800px;
+  padding: 0;
+  margin: 10px auto 30px;
+  line-height: 1.6;
+  list-style-position: inside;
+}
+
+.white-stripe .card {
+  padding: 20px;
+  margin: 10px auto 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  background-color: #f9f9f9;
+}
+
+.white-stripe h3 {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.white-stripe a {
+  color: purple;
+  text-decoration: none;
+}
+
+.white-stripe .card p {
+  margin: 10px 0 0 0;
+  line-height: 1.6;
+}
+/* .big-white-box {
   background-color: white;
   margin: 10%;
-}
+} */
 
 .big-purple-box {
   background-color: #7f4ebe;
@@ -60,7 +116,7 @@ ul {
   text-align: left;
 }
 
-.purple-stripe .cards {
+.cards {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -81,6 +137,40 @@ ul {
 .card p {
   margin-top: 5px;
   font-size: 0.9em;
+}
+
+.purple-stripe .boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.purple-stripe .box {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.purple-stripe .box h3 {
+  margin: 0;
+}
+
+.purple-stripe .box ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.purple-stripe .box ul li {
+  margin: 5px 0;  
 }
 
 @media (min-width: 768px) {

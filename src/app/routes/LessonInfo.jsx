@@ -1,24 +1,28 @@
 import '../../assets/Global.css'
+import '../../assets/LessonInfo.css'
 
 export default function LessonInfo() {
     return (
         <>
-            <section className='big-white-box'>
-                <h1>Lesson Information</h1>
-                <div className='centered-text'>
-                    <p>Come shred with us! Husky Winter Sports offers both ski and snowboarding lessons for kids and adults alike!</p>
-                    <h2>Location and Scheduling</h2>
-                    <p>Our lessons run for six total weekends during winter quarter. We offer 3-week (A <strong>or B</strong>) or 6-week lesson packages. Students may choose between our Saturday (<strong>1:30 - 4pm</strong>) or Sunday (<strong>11:30 - 2pm</strong>) session. </p>
-                    <h2>Group Lessons</h2>
+            <section className='lesson-banner'>
+                <h1 className='lesson-title'>Lesson Information</h1>
+                <h2 className='lesson-subtitle'>Come shred with us! Husky Winter Sports offers both ski and snowboarding lessons for kids and adults alike!</h2>           
+            </section>
+            <section className='white-stripe'>
+                {/* <div className='centered-text'> */}
+                <h2>LOGISTICS</h2>
+                    <h3>Location and Scheduling</h3>
+                    <p>Our lessons run for six total weekends during winter quarter. We offer 3-week (<strong>A or B</strong>) or 6-week lesson packages. Students may choose between our Saturday (<strong>1:30 - 4pm</strong>) or Sunday (<strong>11:30 - 2pm</strong>) session. </p>
+                    <h3>Group Lessons</h3>
                     <p>Ages 7+, suitable for all skill levels! Group size is anywhere between 3-5 students per instructor, arranged based on sport type, age, and ability level</p>
-                    <h2>Single-Student Lessons</h2>
+                    <h3>Single-Student Lessons</h3>
                     <p>Ages 5+, Privates are 1-on-1 student to instructor for a more personalized experience.</p>
-                    <h2>Friends & Family Lessons</h2>
+                    <h3>Friends & Family Lessons</h3>
                     <p>Ages 7+, Semi-privates are group lessons where you pick your group of 2-5 kids. Please email <a href='mailto:huskywslessons@gmail.com'>huskywslessons@gmail.com</a> if interested in registering students ages 5 and 6 for semi-private lessons. </p>   
-                </div>
+                {/* </div> */}
             </section>
 
-            <section className='gray-stripe'>
+            <section className='purple-stripe'>
                 <h2>2025/2026 DATES</h2>
                 <section className='boxes'>
                     <div className='box'>
@@ -66,8 +70,8 @@ export default function LessonInfo() {
 
             <section className='purple-stripe'>
                 <h2>PRICES</h2>
-                <section className='cards'>
-                    <div className='card'>
+                <section className='boxes'>
+                    <div className='box'>
                         <h3>Group Ski or Snowboard Lessons</h3>
                         <div className='little-white-box'>
                             <ul>
@@ -76,7 +80,7 @@ export default function LessonInfo() {
                             </ul>
                         </div>
                     </div>
-                    <div className='card'>
+                    <div className='box'>
                         <h3>Single-Student Ski or Snowboard Lessons</h3>
                         <div className='little-white-box'>
                             <ul>
@@ -85,7 +89,7 @@ export default function LessonInfo() {
                             </ul>
                         </div>
                     </div>
-                    <div className='card'>
+                    <div className='box'>
                         <h3>Friends & Family Ski or Snowboard Lessons</h3>
                         <div className='little-white-box'>
                             <ul>

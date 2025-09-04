@@ -3,7 +3,7 @@ import '../../assets/Global.css'
 export default function LessonRegistration() {
     return (
         <>
-            <section className='big-white-box'>
+            <section className='white-stripe'>
                 <h1>LESSON REGISTRATION</h1>
                 <div className='centered-text'>
                     <p>Lesson registration for the 2025/26 ski and snowboard season is currently closed.  </p>
@@ -29,7 +29,7 @@ export default function LessonRegistration() {
                 <p>Please note that partial refunds may not be granted on a per-lesson basis for missed sessions. If a child is absent from a scheduled lesson without prior communication or cancellation, partial refunds will not be provided for the missed lesson.</p>
                 <p>We strive to provide flexibility and fairness in our refund policies, but it's essential to adhere to the specific guidelines mentioned above for refund eligibility and exceptions. For any further clarification or assistance, please feel free to contact our lesson director, Phish Masteller.</p>
                 <h2>Refund Process & Time Frame:</h2>
-                <p>Contact huskywslessons@gmail.com and expect an email back within 5 business days.</p>
+                <p>Contact <a href='mailto:huskywslessons@gmail.com'>huskywslessons@gmail.com</a> and expect an email back within 5 business days.</p>
                 <h2>Inclement Weather:</h2>
                 <p>Inclement weather is an inherent risk we all accept when engaging in mountain activities. As such, we understand that adverse weather conditions may impact our operations, and everyone involved will be equally affected. Therefore, refunds or compensation for changes in scheduling due to inclement weather are not guaranteed.</p>
                 <h2>No-Show Policy:</h2>

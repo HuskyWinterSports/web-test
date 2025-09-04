@@ -1,0 +1,26 @@
+.lesson-banner {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: start;
+    background-color: purple;
+    padding: 30px 5%;
+}
+
+.lesson-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.lesson-subtitle {
+    font-size: 1.5em;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
