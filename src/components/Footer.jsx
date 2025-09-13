@@ -19,10 +19,10 @@ export default function Footer(props) {
                 </div>
             </div>
             <ul>
-                <li><img src='../../public/images/summit.avif' alt="summit logo"/></li>
-                <li><img src='../../public/images/forrest_service.avif' alt="forrest service logo"/></li>
-                <li><img src='../../public/images/PSIA.avif' alt="PSIA logo"/></li>
-                <li><img src='../../public/images/AASI.gif' alt="AASI logo"/></li>
+                <li><img src='/public/images/summit.avif' alt="summit logo"/></li>
+                <li><img src='/public/images/forrest_service.avif' alt="forrest service logo"/></li>
+                <li><img src='/public/images/PSIA.avif' alt="PSIA logo"/></li>
+                <li><img src='/public/images/AASI.gif' alt="AASI logo"/></li>
             </ul>
         </footer>
     )
