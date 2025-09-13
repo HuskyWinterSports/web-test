@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #7f4ebe;
+    background-color: rgb(80, 44, 132, 0.8);
     height: 60px;
     color: #ffffff;
     width: 100vw;
@@ -61,7 +61,7 @@ nav a {
   top: 0;
   left: 0;
   width: 100vw;
-  background: #7f4ebe;
+  background: rgb(80, 44, 132);
   transform: translateY(-100%);
   transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
   z-index: 1000;

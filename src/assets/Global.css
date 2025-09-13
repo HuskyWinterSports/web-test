@@ -9,9 +9,9 @@
 }
 
 body {
-  background-image: url("../../public/imgs/2024-2025.jpg"); 
+  background-image: url("../../public/images/background_mountain.jpeg"); 
   background-repeat: no-repeat; 
-  background-position: center center;
+  background-position: bottom center;
   background-size: cover; 
   background-attachment: fixed;
   margin: 0;
@@ -37,7 +37,7 @@ h2 {
 }
 
 .purple-stripe {
-  background-color: #7f4ebe;
+  background-color: rgb(80, 44, 132);
   color: white;
   padding: 40px;
   text-align: center;
@@ -82,7 +82,7 @@ h2 {
 }
 
 .white-stripe a {
-  color: purple;
+  color: rgb(80, 44, 132);
   text-decoration: none;
 }
 
@@ -90,14 +90,33 @@ h2 {
   margin: 10px 0 0 0;
   line-height: 1.6;
 }
-/* .big-white-box {
+.big-white-box {
   background-color: white;
-  margin: 10%;
-} */
+  margin: 50px 10%;
+  max-width: 720px;
+  padding: 35px 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.big-white-box a {
+  color: rgb(80, 44, 132);
+  text-decoration: none;
+}
 
 .big-purple-box {
-  background-color: #7f4ebe;
-  margin: 10%;
+  background-color: rgb(80, 44, 132);
+  margin: 50px 10%;
+  max-width: 720px;
+  padding: 35px 50px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+.big-purple-box a {
+  color: #c39ae4;
+  text-decoration: none;
 }
 
 .gray-stripe {
@@ -174,10 +193,10 @@ ul {
 }
 
 @media (min-width: 768px) {
-  .purple-stripe {
-    padding: 40px 20px;
-    
+  .big-purple-box {
+    margin: 50px auto;
   }
+
   .purple-stripe .cards {
     justify-content: space-between;
     margin: 40px 10%;

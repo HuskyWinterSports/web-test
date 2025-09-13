@@ -112,7 +112,7 @@ export default function LessonInfo() {
             <section className='big-purple-box'>
                 <h2>LOCATION</h2>
                 <p>Lessons begin from the Ullr Snow Sports Meeting Area at Snoqualmie’s “Summit Central.” To reach us, take Exit 53 from I-90 East and turn right at the stop sign. At the T-intersection, turn left, drive past the fire station, and turn into the large gravel parking lot on your left.</p>
-                <p>From the parking lot, walk up the switchback path towards the lodges. Looking towards the hill from the bonfire area, <a href="https://www.google.com/maps/@47.4097062,-121.413549,3a,90y,240.34h,86.53t/data=!3m6!1e1!3m4!1sEbLzd5xQma3umW7j-uG5TQ!2e0!7i13312!8i6656!6m1!1e1we" target="_blank">are located outside the orange “Ullr” building south of the base of the Triple 60 Lift*.</a></p>
+                <p>From the parking lot, walk up the switchback path towards the lodges. Looking towards the hill from the bonfire area, <a href="https://www.google.com/maps/@47.4097062,-121.413549,3a,90y,240.34h,86.53t/data=!3m6!1e1!3m4!1sEbLzd5xQma3umW7j-uG5TQ!2e0!7i13312!8i6656!6m1!1e1we" target="_blank">are located outside the orange “Ullr” building south of the base of the Triple 60 Lift*</a>.</p>
                 <p>*This can be a bit of a long walk for the young ones, so please make sure to arrive early enough to find parking in the Central lot (if full, you will be directed to an auxiliary lot and may need to take a shuttle back) and arrive at Ullr with plenty of time to get stoked and ready to go.</p>
 
                 {/* insert map here */}

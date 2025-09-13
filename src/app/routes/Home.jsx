@@ -7,17 +7,19 @@ export default function Home() {
     return (
         <>
             <section className='home-banner'>
-                <h1 className='home-title'>HUSKY WINTER SPORTS</h1>
-                <h2 className='home-subtitle'>SKI AND SNOWBOARD SCHOOL</h2>
-                <div className='banner-buttons'>
-                    <Link to="/lesson-info" className='button'>LESSON INFO</Link>
-                    <Link to="/become-an-instructor" className='button'>BECOME AN INSTRUCTOR</Link>
-                </div>                
+                <div className='banner-overlay'>
+                    <h1 className='home-title'>HUSKY WINTER SPORTS</h1>
+                    <h2 className='home-subtitle'>SKI AND SNOWBOARD SCHOOL</h2>
+                    <div className='banner-buttons'>
+                        <Link to="/lesson-info" className='button'>LESSON INFO</Link>
+                        <Link to="/become-an-instructor" className='button'>BECOME AN INSTRUCTOR</Link>
+                    </div>             
+                </div>   
             </section>
 
             <section className='text-on-picture'>
                 <div className='text'>
-                    <h2>"COOL QUOTE"</h2>
+                    <h2>"HELPING STUDENTS SKI FOR FREE SINCE 1937!"</h2>
                     </div>
             </section>
 
