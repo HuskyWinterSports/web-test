@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Routes, Route, useLocation, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, useLocation, HashRouter} from 'react-router-dom';
 import '../assets/Global.css';
 import Home from './routes/Home.jsx';
 import Navbar from '../components/Navbar.jsx';
@@ -21,7 +21,7 @@ function App() {
       <Navbar />
       <div className="fade-wrapper" key={location.pathname}>
         <main>
-          <BrowserRouter>
+          <HashRouter>
             <Routes location={location}>
               <Route path="/" element={<Home />} />
               <Route path="lesson-info" element={<LessonInfo />} />
@@ -32,7 +32,7 @@ function App() {
               <Route path="faq" element={<FAQ />} />
               <Route path="contact-us" element={<ContactUs />} />
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
         </main>
       </div>
       <Footer />
