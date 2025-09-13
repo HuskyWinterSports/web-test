@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, BrowserRouter } from 'react-router-dom';
 import '../assets/Global.css';
 import Home from './routes/Home.jsx';
 import Navbar from '../components/Navbar.jsx';
@@ -21,16 +21,18 @@ function App() {
       <Navbar />
       <div className="fade-wrapper" key={location.pathname}>
         <main>
-          <Routes location={location}>
-            <Route path="/" element={<Home />} />
-            <Route path="lesson-info" element={<LessonInfo />} />
-            <Route path="lesson-registration" element={<LessonRegistration />} />
-            <Route path="join-our-mailing-list" element={<JoinMailingList />} />
-            <Route path="become-an-instructor" element={<BecomeAnInstructor />} />
-            <Route path="diversity-and-inclusion" element={<DiversityAndInclusion />} />
-            <Route path="faq" element={<FAQ />} />
-            <Route path="contact-us" element={<ContactUs />} />
-          </Routes>
+          <BrowserRouter>
+            <Routes location={location}>
+              <Route path="/" element={<Home />} />
+              <Route path="lesson-info" element={<LessonInfo />} />
+              <Route path="lesson-registration" element={<LessonRegistration />} />
+              <Route path="join-our-mailing-list" element={<JoinMailingList />} />
+              <Route path="become-an-instructor" element={<BecomeAnInstructor />} />
+              <Route path="diversity-and-inclusion" element={<DiversityAndInclusion />} />
+              <Route path="faq" element={<FAQ />} />
+              <Route path="contact-us" element={<ContactUs />} />
+            </Routes>
+          </BrowserRouter>
         </main>
       </div>
       <Footer />
