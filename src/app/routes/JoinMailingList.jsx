@@ -8,7 +8,7 @@ export default function JoinMailingList() {
             <div className='centered-text'>
                 <p>There's snow on the ground and it's snowing in the mountains! We hope you're just as excited about skiing as we are. Join our emailing list to be notified of lesson registration openings and updates.</p>
             </div>
-            {/* google form */}
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1_veiFKbR2i3uqTdNQiR-5MZxLvLj_nbssYcrqqwfMsR0PA/viewform?embedded=true" width="640" height="586" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </section>
         </>
     );

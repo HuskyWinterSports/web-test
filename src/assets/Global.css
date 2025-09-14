@@ -206,4 +206,8 @@ ul {
     width: 170px;
     margin: auto;
   }
+
+  .big-white-box {
+    margin: 50px auto;
+  }
 }
