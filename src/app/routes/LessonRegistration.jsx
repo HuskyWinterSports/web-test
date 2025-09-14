@@ -9,7 +9,7 @@ export default function LessonRegistration() {
                 <div className='centered-text'>
                     <p>Lesson registration for the 2025/26 ski and snowboard season is currently closed. This the Google Form to register will be opened September 15th at 9:00am PST.</p>
                     <iframe className= 'big-form' src="https://docs.google.com/forms/d/e/1FAIpQLSfjLegq7v2dtmjG_YTOisGHB9gBcoSKPdTvs9VDIEcfnHs-0Q/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                    <iframe className='small-form' src="https://docs.google.com/forms/d/e/1FAIpQLSfjLegq7v2dtmjG_YTOisGHB9gBcoSKPdTvs9VDIEcfnHs-0Q/viewform?embedded=true" width="170" height="200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe className='small-form' src="https://docs.google.com/forms/d/e/1FAIpQLSfjLegq7v2dtmjG_YTOisGHB9gBcoSKPdTvs9VDIEcfnHs-0Q/viewform?embedded=true" width="230" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                     <p>If you have questions, please email <a href='mailto:huskywslessons@gmail.com'>huskywslessons@gmail.com</a>. We will get back to you in 1 to 2 business days.*</p>
                     <p className='footnote'>*During the Spring and Summer months (March - August), email and voice messages are checked less frequently, and it may take up to one week to receive a response.</p>
                     {/* stars? */}
