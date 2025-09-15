@@ -29,9 +29,15 @@ main {
   margin-bottom: 80px;
 }
 
+h1 {
+    font-size: 2em;
+    margin: 10px auto;
+    letter-spacing: 1px;
+}
+
 h2 {
     font-size: 1.5em;
-    margin: 10px auto 30px;
+    margin: 10px auto;
     font-weight: lighter;
     letter-spacing: 3px;
 }
@@ -135,6 +141,10 @@ ul {
   text-align: left;
 }
 
+.topic {
+  margin: 40px 0;
+}
+
 .cards {
   display: flex;
   justify-content: center;
@@ -163,7 +173,7 @@ ul {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin: 30px auto;
 }
 
 .purple-stripe .box {
